@@ -3,13 +3,23 @@ margin: 0;
 padding: 0;
 }
 
+#yla {
+    color: darkorange;
+}
+
 .video-container {
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 .video-container video {
+   z-index: -1;
     width: auto;
     height: auto;
     min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%)
 }
