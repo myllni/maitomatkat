@@ -4,7 +4,6 @@ padding: 0;
 }
 
 #yla {
-    color: darkorange;
     text-align: center;
 }
 
@@ -30,3 +29,25 @@ padding: 0;
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+#otsikko {
+    font-size: 100px;
+}
+#alaotsikko {
+    font-size: 64px;
+}
+
+h1 {
+    font-family: Cuprum;
+    color: #FDFDFD;
+}
+
+h2 {
+    font-family: Work Sans;
+    color: #FDFDFD;
+}
+
+p {
+    font-family: Montserrat;
+    color: #FDFDFD;
+}
