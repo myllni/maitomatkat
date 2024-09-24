@@ -7,8 +7,39 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital@0;1&family=Montserrat&family=Work+Sans&display=swap');
         </style>
+    
 </head>
 <body>
-    
+    <!--yhteydenottolomake-->
+    <div class="contact-form">
+        <h2>Ota yhteyttä</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td>
+                        <label style="color: white;">Nimi:</label><br/>
+                        <input type="text" name="name" placeholder="Nimi" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label style="color: white;">Sähköpostiosoite:</label><br/>
+                        <input type="email" name="email" placeholder="Sähköposti" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label style="color: white;">Viesti:</label><br/>
+                        <textarea name="message" placeholder="Viesti" rows="5" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <button type="submit">Lähetä</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div> 
 </body>
 </html>
