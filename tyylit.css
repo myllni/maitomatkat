@@ -25,41 +25,6 @@ body {
     left: 50%;
     transform: translate(-50%, -20%);
 }
-#pricing-table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 20px auto;
-    border: 2px solid #a48ea8;
-    border-radius: 5px;
-}
-
-#pricing-table th, #pricing-table td {
-    border: 1px solid #a48ea8;
-    padding: 10px;
-    text-align: left;
-    background-color: #fdfdfd;
-}
-
-#pricing-table th {
-    font-weight: bold;
-}
-
-/* Alennuslista */
-#discount-list {
-    list-style-type: none;
-    margin: 20px auto;
-    width: 50%;
-    text-align: left;
-}
-
-#discount-list li {
-    background-color: #fdfdfd;
-    margin: 5px;
-    padding: 10px;
-    border: 2px solid #a48ea8;
-    border-radius: 5px;
-}
-
 
 /* .mobileHide { display: inline;} -piilottaa videon mobiililla-
 @media only screen
@@ -76,15 +41,13 @@ and (max-device-width : 480px){  .mobileHide { display: none;}} */
 h1 {
     font-family: Cuprum;
     color: #FDFDFD;
+    text-shadow: #AADEF7 2px 0px 10px;
 }
 
 h2 {
     font-family: Work Sans;
     color: #FDFDFD;
-}
-h3 {
-    font-family: Work Sans;
-    color: #FDFDFD;
+    text-shadow: #AADEF7 2px 0px 10px;
 }
 
 p {
@@ -99,15 +62,17 @@ p {
     margin-right: 10%;
 }
 
-@media only screen
+@media only screen /* desktop asetuksia */
 and (min-device-width:1025px)
 {
     .leipa {margin-top: 28%;}
+    .leipa {font-size: 20px;}
 }
 
-@media only screen
+@media only screen /* mobiili asetuksia */
 and (min-device-width : 320px)
 and (max-device-width : 480px)
 {
     .leipa {margin-top:22%;}
+    .leipa {font-size: 28px;}
 }
