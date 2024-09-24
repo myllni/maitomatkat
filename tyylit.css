@@ -4,27 +4,52 @@ padding: 0;
 }
 body {
     background-color: #010417;
-    h1 {
-        font-family: Cuprum;
-        color: #FDFDFD;
-    }
-    
-    h2 {
-        font-family: Work Sans;
-        color: #FDFDFD;
-    }
-    h3 {
-        font-family: Work Sans;
-        color: #FDFDFD;
-    }
-    
-    p {
-        font-family: Montserrat;
-        color: #FDFDFD;
-    }    
 }
 #yla {
     text-align: center;
+}
+#otsikko {
+    font-size: 100px;
+    margin-top: 18%;
+}
+#alaotsikko {
+    font-size: 50px;
+}
+
+h1 {
+    font-family: Cuprum;
+    color: #FDFDFD;
+    text-shadow: #AADEF7 2px 0px 10px;
+}
+
+h2 {
+    font-family: Work Sans;
+    color: #FDFDFD;
+    text-shadow: #AADEF7 2px 0px 10px;
+}
+
+p {
+    font-family: Montserrat;
+    color: #FDFDFD;
+}
+
+th {
+    font-family: Work Sans;
+}
+
+td {
+    font-family: Montserrat;
+}
+
+li {
+    font-family: Montserrat;
+}
+
+.leipa {
+    z-index: -2;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .video-container {
@@ -43,6 +68,8 @@ body {
     left: 50%;
     transform: translate(-50%, -20%);
 }
+
+/* Hintataulukko */
 #pricing-table {
     width: 80%;
     border-collapse: collapse;
@@ -83,45 +110,6 @@ body {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px){  .mobileHide { display: none;}} */
-
-#otsikko {
-    font-size: 100px;
-    margin-top: 18%;
-}
-#alaotsikko {
-    font-size: 50px;
-}
-
-h1 {
-    font-family: Cuprum;
-    color: #FDFDFD;
-    text-shadow: #AADEF7 2px 0px 10px;
-}
-
-h2 {
-    font-family: Work Sans;
-    color: #FDFDFD;
-    text-shadow: #AADEF7 2px 0px 10px;
-}
-
-p {
-    font-family: Montserrat;
-    color: #FDFDFD;
-}
-
-th {
-    font-family: Work Sans;
-}
-td {
-    font-family: Montserrat;
-}
-
-.leipa {
-    z-index: -2;
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 @media only screen /* desktop asetuksia */
 and (min-device-width:1025px)
