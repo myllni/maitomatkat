@@ -2,7 +2,9 @@
 margin: 0;
 padding: 0;
 }
-
+body {
+    background-color: #010417;
+}
 #yla {
     text-align: center;
 }
@@ -21,20 +23,19 @@ padding: 0;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -25%)
+    transform: translate(-50%, -20%);
 }
 
-.mobileHide { display: inline;}
-/* Smartphone Portrait and Landscape */
+/* .mobileHide { display: inline;} -piilottaa videon mobiililla-
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 480px){  .mobileHide { display: none;}}
+and (max-device-width : 480px){  .mobileHide { display: none;}} */
 
 #otsikko {
     font-size: 100px;
 }
 #alaotsikko {
-    font-size: 64px;
+    font-size: 50px;
 }
 
 h1 {
@@ -50,4 +51,24 @@ h2 {
 p {
     font-family: Montserrat;
     color: #FDFDFD;
+}
+
+.leipa {
+    z-index: -2;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media only screen
+and (min-device-width:1025px)
+{
+    .leipa {margin-top: 28%;}
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+    .leipa {margin-top:22%;}
 }
