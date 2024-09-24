@@ -2,30 +2,24 @@
 margin: 0;
 padding: 0;
 }
+
 body {
     background-color: #010417;
-}
-#yla {
-    text-align: center;
-}
-#otsikko {
-    font-size: 100px;
-    margin-top: 18%;
-}
-#alaotsikko {
-    font-size: 50px;
 }
 
 h1 {
     font-family: Cuprum;
     color: #FDFDFD;
-    text-shadow: #AADEF7 2px 0px 10px;
 }
 
 h2 {
     font-family: Work Sans;
     color: #FDFDFD;
-    text-shadow: #AADEF7 2px 0px 10px;
+}
+
+h3 {
+    font-family: Work Sans;
+    color: #FDFDFD;
 }
 
 p {
@@ -45,28 +39,49 @@ li {
     font-family: Montserrat;
 }
 
-.leipa {
-    z-index: -2;
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .video-container {
     width: 100%;
     height: auto;
     position: relative;
+    text-align: center;
 }
 
 .video-container video {
-   z-index: -1;
     width: auto;
     height: auto;
     min-width: 100%;
+}
+.otsikko {
     position: absolute;
-    top: 50%;
+    top: 65%; 
+    left: 50%; 
+    transform: translate(-50%, -35%); 
+    font-size: 100px;
+    font-family: Cuprum;
+    color: #FDFDFD;
+    text-shadow: #AADEF7 2px 0px 10px;
+}
+
+.alaotsikko {
+    position: absolute;
+    top: 80%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%,-20%);
+    white-space: nowrap;
+    font-size: 45px;
+    font-family: Work Sans;
+    color: #FDFDFD;
+    text-shadow: #AADEF7 2px 0px 10px;
+}
+
+.leipa {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.taulukot {
+    margin-top: 5%;
 }
 
 /* Hintataulukko */
@@ -108,24 +123,31 @@ li {
 
 /* .mobileHide { display: inline;} -piilottaa videon mobiililla-
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){  .mobileHide { display: none;}} */
+and (max-device-width : 420px){  .mobileHide { display: none;}} */
+
+@media only screen /* mobiili asetuksia */
+and (max-device-width : 420px)
+{
+    .leipa {margin-top:15%;}
+    .leipa {margin-bottom:15%;}
+    .leipa {font-size: 14px;}
+}
+
+
+@media only screen /* tabletti asetuksia */
+and (min-device-width : 421px)
+and (max-width: 1024px) 
+{
+    .leipa {margin-top:15%;}
+    .leipa {margin-bottom:15%;}
+    .leipa {font-size: 18px;}
+}
+
 
 @media only screen /* desktop asetuksia */
 and (min-device-width:1025px)
 {
-    .leipa {margin-top: 28%;}
+    .leipa {margin-top: 10%;}
+    .leipa {margin-bottom:10%;}
     .leipa {font-size: 20px;}
-}
-
-@media only screen /* mobiili asetuksia */
-and (min-device-width : 320px)
-and (max-device-width : 480px)
-{
-    .leipa {margin-top:22%;}
-    .leipa {font-size: 28px;}
-}
-
-.taulukot {
-    margin-top: 5%;
 }
