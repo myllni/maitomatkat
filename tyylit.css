@@ -37,8 +37,10 @@ td {
 
 li {
     font-family: Montserrat;
+    color: #FDFDFD;
 }
 
+/*Etusivu*/
 .video-container {
     width: 100%;
     height: auto;
@@ -74,18 +76,53 @@ li {
     text-shadow: #AADEF7 2px 0px 10px;
 }
 
-.leipa {
+.esittely {
     margin-left: 10%;
     margin-right: 10%;
 
 }
 
-.taulukot {
-    margin-top: 5%;
+/*Kohdesivu*/
+/*Kohde-esittelyt*/
+.sitaatti {
+    font-style: italic;
 }
 
+.lisatiedot p {
+    color: #AADEF7;
+}
+
+.lista {
+    margin-left: 5%;
+    list-style-type: square;
+}
+/*Lisätietonappi*/
+.collapsible {
+    background-color: #2C6284;
+    color: #FDFDFD;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    font-size: 14px;
+}
+.active, .collapsible:hover {
+    background-color: #688FB1;
+}
+.collapsible:after {
+    content: '\02795'; /* "plus" merkki (+) */
+    font-size: 14px;
+    color: #fdfdfd;
+    float: right;
+    margin-left: 10px;
+  }
+  .active:after {
+    content: "\2796"; /* "miinus" merkki (-) */
+  }
+
 /* Hintataulukko */
-#pricing-table {
+#hintataulukko {
     width: 80%;
     border-collapse: collapse;
     margin: 20px auto;
@@ -93,31 +130,38 @@ li {
     border-radius: 5px;
 }
 
-#pricing-table th, #pricing-table td {
+#hintataulukko th, #hintataulukko td {
     border: 1px solid #a48ea8;
     padding: 10px;
     text-align: left;
     background-color: #fdfdfd;
 }
 
-#pricing-table th {
+#hintataulukko th {
     font-weight: bold;
 }
 
+.taulukot {
+    margin-top: 10%;
+}
+
 /* Alennuslista */
-#discount-list {
+#alennuslista {
     list-style-type: none;
     margin: 20px auto;
     width: 50%;
     text-align: left;
 }
 
-#discount-list li {
+#alennuslista li {
     background-color: #fdfdfd;
     margin: 5px;
     padding: 10px;
     border: 2px solid #a48ea8;
     border-radius: 5px;
+}
+.alennukset {
+    color: #010417;
 }
 
 
@@ -128,9 +172,11 @@ and (max-device-width : 420px){  .mobileHide { display: none;}} */
 @media only screen /* mobiili asetuksia */
 and (max-device-width : 420px)
 {
-    .leipa {margin-top:15%;}
-    .leipa {margin-bottom:15%;}
-    .leipa {font-size: 14px;}
+    body {font-size: 12px;}
+    .esittely {margin-top:12%;}
+    .esittely {margin-bottom:12%;}
+    .sitaatti {font-size: 10px;}
+    .lisatiedot {font-size: 10px;}
 }
 
 
@@ -138,16 +184,20 @@ and (max-device-width : 420px)
 and (min-device-width : 421px)
 and (max-width: 1024px) 
 {
-    .leipa {margin-top:15%;}
-    .leipa {margin-bottom:15%;}
-    .leipa {font-size: 18px;}
+    body {font-size: 14px;}
+    .esittely {margin-top:10%;}
+    .esittely {margin-bottom:10%;}
+    .sitaatti {font-size: 12px;}
+    .lisatiedot {font-size: 12px;}
 }
 
 
 @media only screen /* desktop asetuksia */
 and (min-device-width:1025px)
 {
-    .leipa {margin-top: 10%;}
-    .leipa {margin-bottom:10%;}
-    .leipa {font-size: 20px;}
+    body {font-size: 16px;}
+    .esittely {margin-top: 10%;}
+    .esittely {margin-bottom:10%;}
+    .sitaatti {font-size: 14px;}
+    .lisatiedot {font-size: 14px;}
 }
