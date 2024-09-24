@@ -4,6 +4,24 @@ padding: 0;
 }
 body {
     background-color: #010417;
+    h1 {
+        font-family: Cuprum;
+        color: #FDFDFD;
+    }
+    
+    h2 {
+        font-family: Work Sans;
+        color: #FDFDFD;
+    }
+    h3 {
+        font-family: Work Sans;
+        color: #FDFDFD;
+    }
+    
+    p {
+        font-family: Montserrat;
+        color: #FDFDFD;
+    }    
 }
 #yla {
     text-align: center;
