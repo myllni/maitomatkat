@@ -21,27 +21,27 @@
             </ul>
         </nav>
     
-    </div> 
+    </div>
     <!--yhteydenottolomake-->
     <div class="contact-form">
         <h2>Ota yhteyttä</h2>
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <form id="yhteydenottolomake">
             <table>
                 <tr>
                     <td>
-                        <label style="color: white;">Nimi:</label><br/>
+                        <label style="color: #fdfdfd;">Nimi:</label><br/>
                         <input type="text" name="name" placeholder="Nimi" required>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label style="color: white;">Sähköpostiosoite:</label><br/>
+                        <label style="color:#fdfdfd;">Sähköpostiosoite:</label><br/>
                         <input type="email" name="email" placeholder="Sähköposti" required>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label style="color: white;">Viesti:</label><br/>
+                        <label style="color: #fdfdfd;">Viesti:</label><br/>
                         <textarea name="message" placeholder="Viesti" rows="5" required></textarea>
                     </td>
                 </tr>
@@ -52,6 +52,19 @@
                 </tr>
             </table>
         </form>
+        <!--Kiitosviesti-->
+        <div class="thank-you-message" id="kiitosviesti">
+            <p>Kiitos viestistänne! Olemme teihin yhteydessä mahdollisimman pian.</p>
     </div> 
+
+    <script>
+           // JavaScriptiä lomakkeen hallintaan
+        document.getElementById('yhteydenottolomake').addEventListener('submit', function(event) {
+            event.preventDefault(); // tämä estää oikean submit toiminnon
+
+            // Tämä näyttää kiitosviestin
+            document.getElementById('kiitosviesti').style.display = 'block';
+        });
+    </script>
 </body>
 </html>
