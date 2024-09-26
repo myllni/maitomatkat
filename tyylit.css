@@ -200,7 +200,7 @@ display: inline-block;
 
 
 /*Yhteydenottolomake*/
-.kiitosviesti p {
+#kiitosviesti {
     display: none;
     margin-top: 20px;
     color: #FDFDFD;
