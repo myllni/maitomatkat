@@ -61,7 +61,7 @@ li {
 }
 
 .navlinks li {
-display: inline-block;
+    display: inline-block;
 }
 
 .navlinks li a {
@@ -208,19 +208,20 @@ display: inline-block;
     width: 80%;
     border-collapse: collapse;
     margin: 20px auto;
-    border: 2px solid #a48ea8;
+    border: 2px solid #AADEF7;
+    color: #FDFDFD;
 }
 
 #hintataulukko th, #hintataulukko td {
-    border: 1px solid #a48ea8;
+    border: 1px solid #AADEF7;
     padding: 10px;
     text-align: left;
-    background-color: #fdfdfd;
+    background-color: ;
 }
 
 #hintataulukko th {
     font-weight: bold;
-    background-color: #fdf0ff;
+    background-color: #2C6284;
 }
 
 .taulukot {
@@ -236,13 +237,12 @@ display: inline-block;
 }
 
 #alennuslista li {
-    background-color: #fdfdfd;
     margin: 5px;
     padding: 10px;
-    border: 2px solid #a48ea8;
+    border: 2px solid #AADEF7;
 }
 .alennukset {
-    color: #010417;
+    color: #FDFDFD;
 }
 
 
