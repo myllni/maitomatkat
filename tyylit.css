@@ -40,6 +40,37 @@ li {
     color: #FDFDFD;
 }
 
+#logokuva {
+    width: 140px;
+}
+
+.navi {
+    background-color: #010417;  
+    text-align: center;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden    ;
+}
+
+.navlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks li {
+display: inline-block;
+}
+
+.navlinks li a {
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
 /*Etusivu*/
 .video-container {
     width: 100%;
