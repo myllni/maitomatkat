@@ -42,23 +42,20 @@ li {
 
 #logokuva {
     width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.navi {
-    background-color: #010417;  
-    text-align: center;
-    font-size: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    overflow: hidden;
-}
 
 .navlinks {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    align-items: 'center';
 }
+
 
 .navlinks li {
 display: inline-block;
