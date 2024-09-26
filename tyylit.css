@@ -105,14 +105,14 @@ li {
     border: none;
     border-radius: 3px;
     text-align: left;
-    font-size: 14px;
+    font-size: 17px;
 }
 .active, .collapsible:hover {
     background-color: #688FB1;
 }
 .collapsible:after {
     content: '\02795'; /* "plus" merkki (+) */
-    font-size: 14px;
+    font-size: 17px;
     color: #fdfdfd;
     float: right;
     margin-left: 10px;
@@ -170,11 +170,11 @@ and (max-device-width : 420px){  .mobileHide { display: none;}} */
 @media only screen /* mobiili asetuksia */
 and (max-device-width : 420px)
 {
-    body {font-size: 12px;}
+    body {font-size: 15px;}
     .esittely {margin-top:12%;}
     .esittely {margin-bottom:12%;}
-    .sitaatti {font-size: 10px;}
-    .lisatiedot {font-size: 10px;}
+    .sitaatti {font-size: 13px;}
+    .lisatiedot {font-size: 13px;}
 }
 
 
@@ -182,20 +182,20 @@ and (max-device-width : 420px)
 and (min-device-width : 421px)
 and (max-width: 1024px) 
 {
-    body {font-size: 14px;}
+    body {font-size: 17px;}
     .esittely {margin-top:10%;}
     .esittely {margin-bottom:10%;}
-    .sitaatti {font-size: 12px;}
-    .lisatiedot {font-size: 12px;}
+    .sitaatti {font-size: 15px;}
+    .lisatiedot {font-size: 15px;}
 }
 
 
 @media only screen /* desktop asetuksia */
 and (min-device-width:1025px)
 {
-    body {font-size: 16px;}
+    body {font-size: 19px;}
     .esittely {margin-top: 10%;}
     .esittely {margin-bottom:10%;}
-    .sitaatti {font-size: 14px;}
-    .lisatiedot {font-size: 14px;}
+    .sitaatti {font-size: 17px;}
+    .lisatiedot {font-size: 17px;}
 }
