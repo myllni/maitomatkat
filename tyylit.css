@@ -195,6 +195,18 @@ display: inline-block;
 }
 
 
+/*Yhteystieto sivu*/
+
+
+
+/*Yhteydenottolomake*/
+.kiitosviesti p {
+    display: none;
+    margin-top: 20px;
+    color: #FDFDFD;
+}
+
+
 /* .mobileHide { display: inline;} -piilottaa videon mobiililla-
 @media only screen
 and (max-device-width : 420px){  .mobileHide { display: none;}} */
