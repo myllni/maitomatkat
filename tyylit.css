@@ -71,6 +71,10 @@ display: inline-block;
     display: inline-block;
 }
 
+.navlinks button{
+    width: 60px;
+}
+
 /*Etusivu*/
 .video-container {
     width: 100%;
