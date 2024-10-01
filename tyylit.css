@@ -259,6 +259,14 @@ li {
 
 
 /*Yhteystieto sivu*/
+/*Yhteystiedot*/
+.yhteystiedot {
+    font-family: Montserrat;
+    color: #fdfdfd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /*Usein kysytyt kysymykset*/
 summary {
     display: inline-block;
