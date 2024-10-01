@@ -49,6 +49,9 @@ li {
     margin-right: auto;
 }
 
+.navi {
+    margin: 40px;
+}
 
 .navlinks {
     text-align: center;
@@ -286,8 +289,37 @@ details[open] summary {
 }
 
 /*Yhteydenottolomake*/
-.yhteydenottolomake, input, textarea, button {
+.yhteydenottolomake {
     font-family: Montserrat;
+    border-color: #a48ea8;
+    border-width: 2px;
+    width: 345px;;
+    padding: 3px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.yhteydenottolomake input, textarea {
+    font-family: Montserrat;
+    border-color: #a48ea8;
+    border-width: 2px;
+    width: 300px;;
+    padding: 3px;
+    border-style: solid;
+    margin: 15px;
+
+}
+
+.yhteydenottolomake label, h2 {
+    margin: 15px;
+}
+
+.yhteydenottolomake button {
+        font-family: Montserrat;
+        border-color: #a48ea8;
+        border-width: 2px;
+        padding: 6px;
+        margin-bottom: 10px;
 }
 
 #kiitosviesti {
