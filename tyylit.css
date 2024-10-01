@@ -41,6 +41,9 @@ li {
     font-family: Montserrat;
     color: #FDFDFD;
 }
+.stats img {
+    width: 100%;
+}
 
 #logokuva {
     width: 140px;
