@@ -15,11 +15,13 @@ h1 {
 h2 {
     font-family: Work Sans;
     color: #FDFDFD;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-family: Work Sans;
     color: #FDFDFD;
+    margin-bottom: 20px;
 }
 
 p {
@@ -78,24 +80,26 @@ li {
       box-sizing: border-box;
       color: #FFFFFF;
       display: flex;
-      font-family: Phantomsans, sans-serif;
+      font-family: Montserrat;
       font-size: 20px;
       justify-content: center;
       line-height: 1em;
       max-width: 100%;
       min-width: 140px;
-      padding: 3px;
+      padding: 5px;
       text-decoration: none;
       user-select: none;
       -webkit-user-select: none;
       touch-action: manipulation;
       white-space: nowrap;
       cursor: pointer;
+      transition: transform 0.3 ease-in-out;
     }
     
     .navlinks button:active,
     .navlinks button:hover {
       outline: 0;
+      transform: translateY(-8px);
     }
     
     .navlinks button span {
@@ -243,10 +247,40 @@ li {
 
 
 /*Yhteystieto sivu*/
+/*Usein kysytyt kysymykset*/
+summary {
+    display: inline-block;
+    background-color: #4A1E53;
+    color: #fdfdfd;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 6px;
+    font-family: Montserrat;
+}
 
+summary:hover {
+    background-color: #595782;
+}
 
+details {
+    margin-bottom: 10px;
+}
+
+details[open] summary {
+    background-color: #595782;
+}
+
+.faq-vastaus {
+    padding: 10px;
+    border-radius: 4px;
+}
 
 /*Yhteydenottolomake*/
+.yhteydenottolomake, input, textarea, button {
+    font-family: Montserrat;
+}
+
 #kiitosviesti {
     display: none;
     margin-top: 20px;
