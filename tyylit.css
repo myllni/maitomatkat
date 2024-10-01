@@ -301,6 +301,7 @@ details[open] summary {
 
 .yhteydenottolomake input, textarea {
     font-family: Montserrat;
+    font-size: 18px;
     border-color: #a48ea8;
     border-width: 2px;
     width: 300px;;
@@ -320,6 +321,7 @@ details[open] summary {
         border-width: 2px;
         padding: 6px;
         margin-bottom: 10px;
+        font-size: 18px;
 }
 
 #kiitosviesti {
