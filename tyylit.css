@@ -1,61 +1,52 @@
+/*Nollataan elementtien oletusasetukset*/
 * {
 margin: 0;
 padding: 0;
 }
 
+/*Sivuston perustyylejä*/
 body {
     background-color: #010417;
 }
-
 h1 {
     font-family: Cuprum;
     color: #FDFDFD;
 }
-
 h2 {
     font-family: Work Sans;
     color: #FDFDFD;
     margin-bottom: 20px;
 }
-
 h3 {
     font-family: Work Sans;
     color: #FDFDFD;
     margin-bottom: 20px;
 }
-
 p {
     font-family: Montserrat;
     color: #FDFDFD;
 }
-
 th {
     font-family: Work Sans;
 }
-
 td {
     font-family: Montserrat;
 }
-
 li {
     font-family: Montserrat;
     color: #FDFDFD;
 }
-.stats img {
-    width: 100%;
-}
 
+/*Navigaatio*/
 #logokuva {
     width: 140px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .navi {
     margin: 40px;
 }
-
 .navlinks {
     text-align: center;
     list-style-type: none;
@@ -63,21 +54,16 @@ li {
     padding: 0;
     align-items: 'center';
 }
-
-
 .navlinks li {
     display: inline-block;
 }
-
 .navlinks li a {
     color: #fdfdfd;
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
 }
-
 .navlinks button{
-    
       align-items: center;
       background-image: linear-gradient(144deg,#00DDEB, #5B42F3 50%,#4A1E53);
       border: 0;
@@ -102,13 +88,11 @@ li {
       cursor: pointer;
       transition: transform 0.3 ease-in-out;
     }
-    
     .navlinks button:active,
     .navlinks button:hover {
       outline: 0;
       transform: translateY(-8px);
     }
-    
     .navlinks button span {
       background-color: rgb(5, 6, 45);
       padding: 16px 24px;
@@ -117,11 +101,9 @@ li {
       height: 100%;
       transition: 300ms;
     }
-    
     .navlinks button:hover span {
       background: none;
     }
-    
     @media (min-width: 768px) {
       .navlinks button {
         font-size: 24px;
@@ -130,19 +112,22 @@ li {
     }
 
 
-/*Etusivu*/
+
+/*ETUSIVU*/
+/*Taustavideo*/
 .video-container {
     width: 100%;
     height: auto;
     position: relative;
     text-align: center;
 }
-
 .video-container video {
     width: auto;
     height: auto;
     min-width: 100%;
 }
+
+/*Maitomatkat nimi ja slogan videon päällä*/
 .otsikko {
     position: absolute;
     top: 65%; 
@@ -153,7 +138,6 @@ li {
     color: #FDFDFD;
     text-shadow: #AADEF7 2px 0px 10px;
 }
-
 .alaotsikko {
     position: absolute;
     top: 80%;
@@ -166,21 +150,32 @@ li {
     text-shadow: #AADEF7 2px 0px 10px;
 }
 
+/*Etusivun esittelyteksti*/
 .esittely {
     margin-left: 10%;
     margin-right: 10%;
-
 }
+
+/*Statistiikkakkaavio*/
+.stats img {
+    width: 100%;
+}
+
+/*Footer*/
 .grid-container {
     font-size: 12px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 100px;
 }
 .grid-container a {
     color: white;
     text-decoration: none;
 }
-/*Kohdesivu*/
+
+
+
+/*KOHDESIVU*/
 /*Kohde-esittelyt*/
 .sitaatti {
     font-style: italic;
@@ -194,6 +189,7 @@ li {
     margin-left: 2%;
     list-style-type: square;
 }
+
 /*Lisätietonappi*/
 .collapsible {
     background-color: #2C6284;
@@ -227,18 +223,15 @@ li {
     border: 2px solid #AADEF7;
     color: #FDFDFD;
 }
-
 #hintataulukko th, #hintataulukko td {
     border: 1px solid #AADEF7;
     padding: 10px;
     text-align: left;
 }
-
 #hintataulukko th {
     font-weight: bold;
     background-color: #2C6284;
 }
-
 .taulukot {
     margin-top: 10%;
 }
@@ -250,7 +243,6 @@ li {
     width: 35%;
     text-align: left;
 }
-
 #alennuslista li {
     margin: 5px;
     padding: 10px;
@@ -261,7 +253,8 @@ li {
 }
 
 
-/*Yhteystieto sivu*/
+
+/*YHTEYSTIETO SIVU*/
 /*Yhteystiedot*/
 .yhteystiedot {
     font-family: Montserrat;
@@ -281,19 +274,15 @@ summary {
     margin-top: 6px;
     font-family: Montserrat;
 }
-
 summary:hover {
     background-color: #595782;
 }
-
 details {
     margin-bottom: 10px;
 }
-
 details[open] summary {
     background-color: #595782;
 }
-
 .faq-vastaus {
     padding: 10px;
     border-radius: 4px;
@@ -309,7 +298,6 @@ details[open] summary {
     border-style: solid;
     border-radius: 8px;
 }
-
 .yhteydenottolomake input, textarea {
     font-family: Montserrat;
     font-size: 18px;
@@ -319,13 +307,10 @@ details[open] summary {
     padding: 3px;
     border-style: solid;
     margin: 15px;
-
 }
-
 .yhteydenottolomake label, h2 {
     margin: 15px;
 }
-
 .yhteydenottolomake button {
         font-family: Montserrat;
         border-color: #a48ea8;
@@ -334,14 +319,15 @@ details[open] summary {
         margin-bottom: 10px;
         font-size: 18px;
 }
-
 #kiitosviesti {
     display: none;
     margin-top: 20px;
     color: #FDFDFD;
 }
 
-#myBtn {            /*Takaisin ylös nappi */
+
+ /*Takaisin ylös nappi */
+#myBtn {           
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -360,16 +346,18 @@ details[open] summary {
     text-align:center;
     box-shadow: #FDFDFD 1px 0px 10px;
   }
-  
   #myBtn:hover {
     background-color: #595782; /* Add a dark-grey background on hover */
   }
+
 
 
 /* .mobileHide { display: inline;} -piilottaa videon mobiililla-
 @media only screen
 and (max-device-width : 420px){  .mobileHide { display: none;}} */
 
+
+/*Laitekohtaiset asetukset*/
 @media only screen /* mobiili asetuksia */
 and (max-device-width : 420px)
 {

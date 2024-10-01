@@ -12,12 +12,11 @@
 <body style="margin: 20px;">
 
 <body>
-
     <!--Takaisin sivun ylös nappi-->
- <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
- <script src="topButton.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <script src="topButton.js"></script>
    
-    
+    <!--Navigaatio-->
     <div class="navi">
         <div class="navi">
             <nav>
@@ -28,8 +27,8 @@
                 <li><a href="yhteys.html"><button>Yhteystiedot</button></li></a>
             </ul>
         </nav>
-    
-    </div> 
+    </div>
+
     <!--Matkakohteemme-->
     <div class="kohde-esittely">
         <h2>Matkakohteemme</h2>
@@ -234,7 +233,6 @@
         <br>
     </div>
 
-
     <!--Aukeavan lisätietonapin JavaScript koodi (saa napin toimimaan)-->
     <script>
         var coll = document.getElementsByClassName("collapsible");
@@ -250,7 +248,7 @@
             content.style.display = "block";
             }
         });
-}
+        }
     </script>
 
     <!--Hintataulukko-->
@@ -282,8 +280,8 @@
                 <td>Ilmoitetaan myöhemmin</td>
             </tr>
         </table>
-        
         <br>
+
         <!--Lista alennuksista-->
         <center><h3>Alennukset</h3> </center>
         <ul id="alennuslista">
@@ -294,6 +292,7 @@
         </ul>
     </div>
     
+    <!--Footer-->
     <footer>
         <div class="grid-container">
             <div class="grid-item">1<a href="etu.html#section1"> <img src="logo.jpg" id="logokuva"></a></div>
