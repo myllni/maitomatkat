@@ -82,6 +82,7 @@ li {
       display: flex;
       font-family: Montserrat;
       font-size: 20px;
+      text-shadow: #010417 2px 2px 2px;
       justify-content: center;
       line-height: 1em;
       max-width: 100%;
@@ -287,7 +288,7 @@ details[open] summary {
     color: #FDFDFD;
 }
 
-#myBtn {
+#myBtn {            /*Takaisin ylös nappi */
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -304,6 +305,7 @@ details[open] summary {
     border-radius: 200px; /* Rounded corners */
     font-size: 25px; /* Increase font size */
     text-align:center;
+    box-shadow: #FDFDFD 1px 0px 10px;
   }
   
   #myBtn:hover {
