@@ -36,7 +36,7 @@ li {
     color: #FDFDFD;
 }
 
-/*Navigaatio*/
+/*Navigaation tyylittely*/
 #logokuva {
     width: 140px;
     display: block;
@@ -93,6 +93,8 @@ li {
       white-space: nowrap;
       cursor: pointer;
       transition: transform 0.3 ease-in-out;
+      height: 50px;
+      width: 200px;
     }
     .navlinks button:active,
     .navlinks button:hover {
