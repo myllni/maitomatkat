@@ -1,4 +1,4 @@
-<script>
+
 <!--Avaa kuvan-->
 function openModal() {
   document.getElementById("myModal").style.display = "block";
@@ -8,4 +8,3 @@ function openModal() {
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
-</script>
