@@ -208,6 +208,19 @@ li {
     list-style-type: square;
 }
 
+.kuu, .mars, .venus, .merkurius, .jupiter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teksti {
+    width: 50%;
+}
+.kohdekuva img {
+    width: 400px;
+}
+
 /*Lisätietonappi*/
 .collapsible {
     background-color: #2C6284;
@@ -235,6 +248,7 @@ li {
     content: "\2212"; /* "miinus" merkki (-) */
   }
 
+  
 /* Hintataulukko */
 #hintataulukko {
     width: 80%;
