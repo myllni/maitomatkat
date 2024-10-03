@@ -218,7 +218,6 @@ li {
     border-radius: 3px;
     text-align: left;
     font-size: 17px;
-    border-radius: 10px;
 }
 .active, .collapsible:hover {
     background-color: #688FB1;
@@ -351,10 +350,6 @@ details[open] summary {
     margin-top: 8px;
     margin-bottom: 40px;
 }
-.center {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 /*Yhteydenottolomake*/
 .yhteydenottolomake {
@@ -438,7 +433,6 @@ and (max-device-width : 420px)
     #myBtn {height: 100px; width: 100px; font-size: 60px;}
     .navlinks button {height: 70px; width: 300px; font-size: 40px;}
     .collapsible {height: 140px; width: 450px; font-size: 50px; margin-top: 50px; margin-bottom: 50px;}
-    .collapsible:after {font-size: 50px;}
 }
 
 
