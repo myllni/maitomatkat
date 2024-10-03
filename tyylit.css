@@ -163,8 +163,15 @@ li {
 }
 
 /*Statistiikkakkaavio*/
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .stats img {
-    width: 100%;
+    width: 65%;
 }
 
 /*Footer*/
