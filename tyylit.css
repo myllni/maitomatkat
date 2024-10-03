@@ -198,24 +198,14 @@ li {
 .sitaatti {
     font-style: italic;
 }
+
 .lisatiedot p {
     color: #AADEF7;
 }
+
 .lista {
     margin-left: 2%;
     list-style-type: square;
-}
-.kuu, .mars, .venus, .merkurius, .jupiter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.teksti {
-    width: 50%;
-}
-.kohdekuva img {
-    width: 400px;
 }
 
 /*Lisätietonappi*/
@@ -228,19 +218,21 @@ li {
     border-radius: 3px;
     text-align: left;
     font-size: 17px;
+    border-radius: 10px;
 }
 .active, .collapsible:hover {
     background-color: #688FB1;
 }
 .collapsible:after {
-    content: '\02795'; /* "plus" merkki (+) */
+    content: '\002B'; /* "plus" merkki (+) */
     font-size: 17px;
     color: #fdfdfd;
     float: right;
     margin-left: 10px;
+    
   }
   .active:after {
-    content: "\2796"; /* "miinus" merkki (-) */
+    content: "\2212"; /* "miinus" merkki (-) */
   }
 
 /* Hintataulukko */
@@ -443,6 +435,8 @@ and (max-device-width : 420px)
     #myBtn {height: 100px; width: 100px; font-size: 60px;}
     .navlinks button {height: 70px; width: 300px; font-size: 40px;}
     .collapsible {height: 140px; width: 450px; font-size: 50px; margin-top: 50px; margin-bottom: 50px;}
+    .collapsible:after {font-size: 50px;}
+    summary {height: 100%; width: auto; font-size: 30px;}
 }
 
 
