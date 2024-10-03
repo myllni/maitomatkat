@@ -198,14 +198,24 @@ li {
 .sitaatti {
     font-style: italic;
 }
-
 .lisatiedot p {
     color: #AADEF7;
 }
-
 .lista {
     margin-left: 2%;
     list-style-type: square;
+}
+.kuu, .mars, .venus, .merkurius, .jupiter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teksti {
+    width: 50%;
+}
+.kohdekuva img {
+    width: 400px;
 }
 
 /*Lisätietonappi*/
