@@ -50,9 +50,31 @@
 </div>
 
 <!--Statistiikkakaavio-->
-<div class="stats"> <img src="Kaavio.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Statistiikkakaavio" id="kaavio">
-</div>
-
+<<!-- Images used to open the lightbox -->
+<div class="row">
+      <div class="column">
+        <img src="Kaavio.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+      </div>
+    </div>
+    
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+    
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="Kaavio.jpg" style="width:100%">
+        </div>
+    
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+    
+        </div>
+      </div>
+    </div>
 <!--Footer-->
 <footer>
     <div class="grid-container">
