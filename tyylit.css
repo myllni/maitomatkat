@@ -19,7 +19,7 @@ h2 {
 h3 {
     font-family: Work Sans;
     color: #FDFDFD;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 p {
     font-family: Montserrat;
@@ -36,7 +36,7 @@ li {
     color: #FDFDFD;
 }
 
-/*Navigaatio*/
+/*Navigaation tyylittely*/
 #logokuva {
     width: 140px;
     display: block;
@@ -93,6 +93,8 @@ li {
       white-space: nowrap;
       cursor: pointer;
       transition: transform 0.3 ease-in-out;
+      height: 50px;
+      width: 200px;
     }
     .navlinks button:active,
     .navlinks button:hover {
@@ -163,8 +165,15 @@ li {
 }
 
 /*Statistiikkakkaavio*/
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .stats img {
-    width: 100%;
+    width: 65%;
 }
 
 /*Footer*/
@@ -183,6 +192,9 @@ li {
 
 /*KOHDESIVU*/
 /*Kohde-esittelyt*/
+.kohde-esittely {
+    margin-top: 50px;
+}
 .sitaatti {
     font-style: italic;
 }
@@ -266,7 +278,10 @@ li {
     font-family: Montserrat;
     color: #fdfdfd;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+.yhteystiedot h3 {
+    color: #e8bdef;
 }
 
 /*Usein kysytyt kysymykset*/
@@ -296,8 +311,8 @@ details[open] summary {
 
 /*Työntekijä-esittely*/
 .flashcard {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     perspective: 1000px;
 }
 .card {
@@ -325,15 +340,15 @@ details[open] summary {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
 }
-img {
+.flashcard img {
     max-width: 100%;
     max-height: 100%;
 }
 .henkilonimi {
     color:#FDFDFD;
-    font-size: 10px;
+    margin-top: 8px;
+    margin-bottom: 40px;
 }
 .center {
     margin-left: auto;
@@ -373,7 +388,7 @@ img {
 }
 #kiitosviesti {
     display: none;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #FDFDFD;
 }
 
@@ -401,6 +416,7 @@ img {
   #myBtn:hover {
     background-color: #595782; /* Add a dark-grey background on hover */
   }
+  
 
 
 
@@ -418,6 +434,7 @@ and (max-device-width : 420px)
     .esittely {margin-bottom:12%;}
     .sitaatti {font-size: 13px;}
     .lisatiedot {font-size: 13px;}
+    #myBtn {height: 100px; width: 100px; font-size: 60px;}
 }
 
 
@@ -430,6 +447,10 @@ and (max-width: 1024px)
     .esittely {margin-bottom:10%;}
     .sitaatti {font-size: 15px;}
     .lisatiedot {font-size: 15px;}
+    #myBtn {height: 70px; width: 70px; font-size: 30px;}
+    
+
+    
 }
 
 
