@@ -1,10 +1,10 @@
 
 <!--Avaa kuvan-->
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("kaavio").style.display = "block";
 }
 
 <!-- sulkee kuvan-->
 function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+  document.getElementById("kaavio").style.display = "none";
 }
