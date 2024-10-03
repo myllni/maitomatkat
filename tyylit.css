@@ -412,6 +412,7 @@ details[open] summary {
   #myBtn:hover {
     background-color: #595782; /* Add a dark-grey background on hover */
   }
+  
 
 
 
@@ -429,6 +430,7 @@ and (max-device-width : 420px)
     .esittely {margin-bottom:12%;}
     .sitaatti {font-size: 13px;}
     .lisatiedot {font-size: 13px;}
+    #myBtn {height: 100px; width: 100px; font-size: 60px;}
 }
 
 
@@ -441,6 +443,10 @@ and (max-width: 1024px)
     .esittely {margin-bottom:10%;}
     .sitaatti {font-size: 15px;}
     .lisatiedot {font-size: 15px;}
+    #myBtn {height: 70px; width: 70px; font-size: 30px;}
+    
+
+    
 }
 
 
