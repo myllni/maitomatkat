@@ -70,54 +70,54 @@ li {
     display: inline-block;
 }
 .navlinks button{
-      align-items: center;
-      background-image: linear-gradient(144deg,#00DDEB, #5B42F3 50%,#4A1E53);
-      border: 0;
-      border-radius: 8px;
-      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-      box-sizing: border-box;
-      color: #FFFFFF;
-      display: flex;
-      font-family: Montserrat;
-      font-size: 20px;
-      text-shadow: #010417 2px 2px 2px;
-      justify-content: center;
-      line-height: 1em;
-      max-width: 100%;
-      min-width: 140px;
-      padding: 5px;
-      text-decoration: none;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      white-space: nowrap;
-      cursor: pointer;
-      transition: transform 0.3 ease-in-out;
-      height: 50px;
-      width: 200px;
+    align-items: center;
+    background-image: linear-gradient(144deg,#00DDEB, #5B42F3 50%,#4A1E53);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-shadow: #010417 2px 2px 2px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 5px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: transform 0.3 ease-in-out;
+    height: 50px;
+    width: 200px;
+}
+.navlinks button:active,
+.navlinks button:hover {
+    outline: 0;
+    transform: translateY(-8px);
+}
+.navlinks button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+.navlinks button:hover span {
+    background: none;
+}
+@media (min-width: 768px) {
+    .navlinks button {
+    font-size: 24px;
+    min-width: 196px;
     }
-    .navlinks button:active,
-    .navlinks button:hover {
-      outline: 0;
-      transform: translateY(-8px);
-    }
-    .navlinks button span {
-      background-color: rgb(5, 6, 45);
-      padding: 16px 24px;
-      border-radius: 6px;
-      width: 100%;
-      height: 100%;
-      transition: 300ms;
-    }
-    .navlinks button:hover span {
-      background: none;
-    }
-    @media (min-width: 768px) {
-      .navlinks button {
-        font-size: 24px;
-        min-width: 196px;
-      }
-    }
+}
 
 
 
@@ -171,7 +171,6 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .stats img {
     width: 65%;
 }
@@ -181,7 +180,7 @@ li {
     font-size: 12px;
     text-align: center;
     padding-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .grid-container a {
     color: white;
@@ -198,16 +197,13 @@ li {
 .sitaatti {
     font-style: italic;
 }
-
 .lisatiedot p {
     color: #AADEF7;
 }
-
 .lista {
     margin-left: 2%;
     list-style-type: square;
 }
-
 .kuu, .mars, .venus, .merkurius, .jupiter {
     display: flex;
     flex-direction: row;
@@ -242,13 +238,11 @@ li {
     color: #fdfdfd;
     float: right;
     margin-left: 10px;
-    
-  }
-  .active:after {
+}
+.active:after {
     content: "\2212"; /* "miinus" merkki (-) */
-  }
+}
 
-  
 /* Hintataulukko */
 #hintataulukko {
     width: 80%;
@@ -284,6 +278,20 @@ li {
 }
 .alennukset {
     color: #FDFDFD;
+}
+
+/*Varausosio*/
+.varausosio {
+    text-align: center;
+}
+.varausosio p {
+    font-style: italic;
+}
+.varausosio a {
+    color: #FDFDFD;
+}
+.varausosio a:hover {
+    color: #AADEF7;
 }
 
 
