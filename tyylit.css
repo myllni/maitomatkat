@@ -49,7 +49,7 @@ li {
     font-size: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     padding: 0 20px;
     overflow: hidden;
 }
@@ -389,31 +389,35 @@ details[open] summary {
     font-family: Montserrat;
     border-color: #a48ea8;
     border-width: 2px;
-    width: 345px;;
+    width: 390px;;
     padding: 3px;
     border-style: solid;
     border-radius: 8px;
 }
 .yhteydenottolomake input, textarea {
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 20px;
     border-color: #a48ea8;
     border-width: 2px;
-    width: 300px;;
+    width: 345px;;
     padding: 3px;
     border-style: solid;
     margin: 15px;
 }
-.yhteydenottolomake label, h2 {
+.yhteydenottolomake label {
+    margin: 15px;
+    font-size: 25px;
+}
+.yhteydenottolomake h2 {
     margin: 15px;
 }
 .yhteydenottolomake button {
-        font-family: Montserrat;
-        border-color: #a48ea8;
-        border-width: 2px;
-        padding: 6px;
-        margin-bottom: 10px;
-        font-size: 18px;
+    font-family: Montserrat;
+    border-color: #a48ea8;
+    border-width: 2px;
+    padding: 6px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 #kiitosviesti {
     display: none;
@@ -456,28 +460,48 @@ and (max-device-width : 420px){  .mobileHide { display: none;}} */
 
 /*Laitekohtaiset asetukset*/
 @media only screen /* mobiili asetuksia */
-and (max-device-width : 420px)
+and (max-device-width : 425px)
 {
-    body {font-size: 15px;}
-    .esittely {margin-top: 10%; margin-bottom: 10%;}
-    .sitaatti {font-size: 13px;}
-    .lisatiedot {font-size: 13px;}
-    #myBtn {height: 100px; width: 100px; font-size: 60px;}
+    body {font-size: 17px;}
+    h2 {font-size: 27px;}
+    h3 {font-size: 21px;}
     .navlinks button {height: 70px; width: 300px; font-size: 40px;}
-    .collapsible {height: 140px; width: 450px; font-size: 50px; margin-top: 50px; margin-bottom: 50px;}
-    .collapsible:after {font-size: 50px;}
-    summary {height: 100%; width: auto; font-size: 30px;}
+    .esittely {margin-top: 10%; margin-bottom: 10%;}
+    .sitaatti {font-size: 15px;}
+    .kuu, .mars, .venus, .merkurius, .jupiter {
+        display: block;
+    }
+    .teksti {
+        width: 100%;
+    }
+    .kohdekuva img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .collapsible {width: 310px; height: 80px; font-size: 24px; margin-left: 1%;}
+    .lisatiedot {font-size: 15px; margin-left: 2%;}
+    .henkilonimi {font-size: 20px;}
+    summary {width: auto; font-size: 32px;}
+    .grid-container {font-size: 9px; margin-top: 200px;}
+    #myBtn {height: 100px; width: 100px; font-size: 6px;}
 }
 
 
 @media only screen /* tabletti asetuksia */
-and (min-device-width : 421px)
+and (min-device-width : 426px)
 and (max-width: 1024px) 
 {
-    body {font-size: 17px;}
+    body {font-size: 18px;}
+    h2 {font-size: 28px;}
+    h3 {font-size: 22px;}
     .esittely {margin-top: 8%; margin-bottom: 8%;}
-    .sitaatti {font-size: 15px;}
-    .lisatiedot {font-size: 15px;}
+    .sitaatti {font-size: 17px;}
+    .collapsible {width: 250px; height: 50px; font-size: 18px; margin-left: 2%;}
+    .lisatiedot {font-size: 15px; margin-left: 2%;}
+    .henkilonimi {font-size: 20px;}
+    .grid-container {font-size: 10px; margin-top: 160px;}
     #myBtn {height: 70px; width: 70px; font-size: 30px;}
 }
 
@@ -486,9 +510,13 @@ and (max-width: 1024px)
 and (min-device-width:1025px)
 {
     body {font-size: 19px;}
+    h2 {font-size: 29px;}
+    h3 {font-size: 23px;}
     .esittely {margin-top: 8%; margin-bottom: 8%;}
-    .sitaatti {font-size: 17px;}
-    .lisatiedot {font-size: 17px;}
-    .faq-vastaus  {margin-left: 20%; margin-right: 20%;}
+    .kohde-esittely h2 {margin-left: 7%;}
+    .sitaatti {font-size: 18px;}
+    .lisatiedot {font-size: 18px;}
     .varausosio  {margin-left: 20%; margin-right: 20%;}
+    .työntekijä_intro {margin-left: 10%; margin-right: 10%;}
+    .faq-vastaus  {margin-left: 20%; margin-right: 20%;}
 }
