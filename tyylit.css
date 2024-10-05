@@ -507,7 +507,7 @@ and (max-width: 1024px)
     .grid-container {font-size: 10px; margin-top: 160px;}
     #myBtn {height: 70px; width: 70px; font-size: 30px;}
     .stats img {
-        width: 100%;
+        width: 80%;
     }
 }
 
