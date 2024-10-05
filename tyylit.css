@@ -49,10 +49,10 @@ li {
     font-size: 40px;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 50px;
     padding: 0 20px;
     overflow: hidden;
 }
-
 .navlinks {
     text-align: center;
     list-style-type: none;
@@ -128,6 +128,7 @@ li {
     height: auto;
     position: relative;
     text-align: center;
+    margin-bottom: 20px;
 }
 .video-container video {
     width: auto;
@@ -197,7 +198,13 @@ li {
 .sitaatti {
     font-style: italic;
 }
+.lisatiedot {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 40px;
+}
 .lisatiedot p {
+    margin-left: 0;
     color: #AADEF7;
 }
 .lista {
@@ -214,7 +221,10 @@ li {
     width: 50%;
 }
 .kohdekuva img {
+    display: flex;
+    align-self: flex-end;
     width: 400px;
+    border-radius: 10px;
 }
 
 /*Lisätietonappi*/
@@ -223,8 +233,10 @@ li {
     color: #FDFDFD;
     cursor: pointer;
     padding: 10px;
+    margin-left: 7%;
+    margin-top: 10px;
+    margin-bottom: 30px;
     border: none;
-    border-radius: 3px;
     text-align: left;
     font-size: 17px;
     border-radius: 10px;
@@ -301,8 +313,8 @@ li {
 .yhteystiedot {
     font-family: Montserrat;
     color: #fdfdfd;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .yhteystiedot h3 {
     color: #e8bdef;
@@ -323,7 +335,7 @@ summary:hover {
     background-color: #595782;
 }
 details {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 details[open] summary {
     background-color: #595782;
@@ -354,9 +366,6 @@ details[open] summary {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-}
-.front {
-    background: url('IMG_4721.jpg') no-repeat center/cover;
 }
 .back {
     background: #FDFDFD;
@@ -413,6 +422,7 @@ details[open] summary {
 }
 
 
+
  /*Takaisin ylös nappi */
 #myBtn {           
     display: none; /* Hidden by default */
@@ -439,7 +449,6 @@ details[open] summary {
   
 
 
-
 /* .mobileHide { display: inline;} -piilottaa videon mobiililla-
 @media only screen
 and (max-device-width : 420px){  .mobileHide { display: none;}} */
@@ -450,8 +459,7 @@ and (max-device-width : 420px){  .mobileHide { display: none;}} */
 and (max-device-width : 420px)
 {
     body {font-size: 15px;}
-    .esittely {margin-top:12%;}
-    .esittely {margin-bottom:12%;}
+    .esittely {margin-top: 10%; margin-bottom: 10%;}
     .sitaatti {font-size: 13px;}
     .lisatiedot {font-size: 13px;}
     #myBtn {height: 100px; width: 100px; font-size: 60px;}
@@ -467,14 +475,10 @@ and (min-device-width : 421px)
 and (max-width: 1024px) 
 {
     body {font-size: 17px;}
-    .esittely {margin-top:10%;}
-    .esittely {margin-bottom:10%;}
+    .esittely {margin-top: 8%; margin-bottom: 8%;}
     .sitaatti {font-size: 15px;}
     .lisatiedot {font-size: 15px;}
     #myBtn {height: 70px; width: 70px; font-size: 30px;}
-    
-
-    
 }
 
 
@@ -482,8 +486,9 @@ and (max-width: 1024px)
 and (min-device-width:1025px)
 {
     body {font-size: 19px;}
-    .esittely {margin-top: 10%;}
-    .esittely {margin-bottom:10%;}
+    .esittely {margin-top: 8%; margin-bottom: 8%;}
     .sitaatti {font-size: 17px;}
     .lisatiedot {font-size: 17px;}
+    .faq-vastaus  {margin-left: 20%; margin-right: 20%;}
+    .varausosio  {margin-left: 20%; margin-right: 20%;}
 }
