@@ -486,6 +486,9 @@ and (max-device-width : 425px)
     summary {width: auto; font-size: 32px;}
     .grid-container {font-size: 9px; margin-top: 200px;}
     #myBtn {height: 100px; width: 100px; font-size: 6px;}
+    .stats img {
+        width: 100%;
+    }
 }
 
 
