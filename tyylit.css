@@ -8,7 +8,7 @@ body {
     background-color: #010417;
 }
 h1 {
-    font-family: Cuprum;
+    font-family: "Cuprum";
     color: #FDFDFD;
 }
 h2 {
@@ -78,7 +78,7 @@ li {
     box-sizing: border-box;
     color: #FFFFFF;
     display: flex;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 20px;
     text-shadow: #010417 2px 2px 2px;
     justify-content: center;
@@ -143,7 +143,7 @@ li {
     left: 50%; 
     transform: translate(-50%, -35%); 
     font-size: 100px;
-    font-family: Cuprum;
+    font-family: "Cuprum";
     color: #FDFDFD;
     text-shadow: #AADEF7 2px 0px 10px;
 }
@@ -154,7 +154,7 @@ li {
     transform: translate(-50%,-20%);
     white-space: nowrap;
     font-size: 45px;
-    font-family: Work Sans;
+    font-family: "Work Sans";
     color: #FDFDFD;
     text-shadow: #AADEF7 2px 0px 10px;
 }
@@ -312,7 +312,7 @@ li {
 /*YHTEYSTIETO SIVU*/
 /*Yhteystiedot*/
 .yhteystiedot {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     color: #fdfdfd;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -330,7 +330,7 @@ summary {
     cursor: pointer;
     border-radius: 8px;
     margin-top: 6px;
-    font-family: Montserrat;
+    font-family: "Montserrat";
 }
 summary:hover {
     background-color: #595782;
@@ -387,7 +387,7 @@ details[open] summary {
 
 /*Yhteydenottolomake*/
 .yhteydenottolomake {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     border-color: #a48ea8;
     border-width: 2px;
     width: 390px;;
@@ -396,7 +396,7 @@ details[open] summary {
     border-radius: 8px;
 }
 .yhteydenottolomake input, textarea {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 20px;
     border-color: #a48ea8;
     border-width: 2px;
@@ -413,7 +413,7 @@ details[open] summary {
     margin: 15px;
 }
 .yhteydenottolomake button {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     border-color: #a48ea8;
     border-width: 2px;
     padding: 6px;
@@ -461,7 +461,7 @@ and (max-device-width : 420px){  .mobileHide { display: none;}} */
 
 /*Laitekohtaiset asetukset*/
 @media only screen /* mobiili asetuksia */
-and (max-device-width : 425px)
+and (max-width : 425px)
 {
     body {font-size: 17px;}
     h2 {font-size: 27px;}
@@ -485,7 +485,7 @@ and (max-device-width : 425px)
 
 
 @media only screen /* tabletti asetuksia */
-and (min-device-width : 426px)
+and (min-width : 426px)
 and (max-width: 1024px) 
 {
     body {font-size: 18px;}
@@ -498,13 +498,13 @@ and (max-width: 1024px)
     .varausosio {font-size: 16px;}
     .henkilonimi {font-size: 20px;}
     .grid-container {font-size: 10px; margin-top: 160px;}
-    #myBtn {height: 70px; width: 70px; font-size: 30px;}
+    #myBtn {height: 70px; width: 70px; font-size: 50px;}
     .stats img {width: 85%;}
 }
 
 
 @media only screen /* desktop asetuksia */
-and (min-device-width:1025px)
+and (min-width:1025px)
 {
     body {font-size: 19px;}
     h2 {font-size: 29px;}
