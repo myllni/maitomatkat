@@ -12,27 +12,27 @@ h1 {
     color: #FDFDFD;
 }
 h2 {
-    font-family: Work Sans;
+    font-family: "Work Sans";
     color: #FDFDFD;
     margin-bottom: 20px;
 }
 h3 {
-    font-family: Work Sans;
+    font-family: "Work Sans";
     color: #FDFDFD;
     margin-bottom: 15px;
 }
 p {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     color: #FDFDFD;
 }
 th {
-    font-family: Work Sans;
+    font-family: "Work Sans";
 }
 td {
-    font-family: Montserrat;
+    font-family: "Montserrat";
 }
 li {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     color: #FDFDFD;
 }
 
@@ -92,7 +92,7 @@ li {
     touch-action: manipulation;
     white-space: nowrap;
     cursor: pointer;
-    transition: transform 0.3 ease-in-out;
+    transition: transform 0.3s ease-in-out;
     height: 50px;
     width: 200px;
 }
