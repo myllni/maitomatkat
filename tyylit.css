@@ -474,6 +474,8 @@ and (max-device-width : 425px)
     .kohdekuva img {width: 100%; border-radius: 10px; margin-top: 50px; margin-bottom: 30px;}
     .collapsible {width: 310px; height: 80px; font-size: 24px; margin-left: 1%;}
     .lisatiedot {font-size: 15px; margin-left: 2%;}
+    #hintataulukko {width:100%;}
+    #alennuslista {width: 50%;}
     .varausosio {font-size: 15px;}
     .henkilonimi {font-size: 20px;}
     summary {width: auto; font-size: 32px;}
@@ -495,6 +497,8 @@ and (max-width: 1024px)
     .sitaatti {font-size: 17px;}
     .collapsible {width: 250px; height: 50px; font-size: 18px; margin-left: 2%;}
     .lisatiedot {font-size: 15px; margin-left: 2%;}
+    #hintataulukko {width:95%;}
+    #alennuslista {width: 45%;}
     .varausosio {font-size: 16px;}
     .henkilonimi {font-size: 20px;}
     .grid-container {font-size: 10px; margin-top: 160px;}
