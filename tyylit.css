@@ -1,4 +1,4 @@
-* {
+* { /*Nollataan elementtien oletustyylittelyt*/
 margin: 0;
 padding: 0;
 }
@@ -58,7 +58,7 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    align-items: 'center';
+    align-items: center;
 }
 .navlinks li {
     display: inline-block;
@@ -173,7 +173,7 @@ li {
     flex-wrap: wrap;
 }
 .stats img {
-    width: 65%;
+    width: 70%;
 }
 
 /*Footer*/
@@ -298,6 +298,7 @@ li {
 }
 .varausosio p {
     font-style: italic;
+    font-size: 17px;
 }
 .varausosio a {
     color: #FDFDFD;
@@ -468,27 +469,17 @@ and (max-device-width : 425px)
     .navlinks button {height: 70px; width: 300px; font-size: 40px;}
     .esittely {margin-top: 10%; margin-bottom: 10%;}
     .sitaatti {font-size: 15px;}
-    .kuu, .mars, .venus, .merkurius, .jupiter {
-        display: block;
-    }
-    .teksti {
-        width: 100%;
-    }
-    .kohdekuva img {
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
+    .kuu, .mars, .venus, .merkurius, .jupiter {display: block;}
+    .teksti {width: 100%;}
+    .kohdekuva img {width: 100%; border-radius: 10px; margin-top: 50px; margin-bottom: 30px;}
     .collapsible {width: 310px; height: 80px; font-size: 24px; margin-left: 1%;}
     .lisatiedot {font-size: 15px; margin-left: 2%;}
+    .varausosio {font-size: 15px;}
     .henkilonimi {font-size: 20px;}
     summary {width: auto; font-size: 32px;}
     .grid-container {font-size: 9px; margin-top: 200px;}
     #myBtn {height: 100px; width: 100px; font-size: 6px;}
-    .stats img {
-        width: 100%;
-    }
+    .stats img {width: 100%;}
     #logokuva {width: 200px;}
 }
 
@@ -504,12 +495,11 @@ and (max-width: 1024px)
     .sitaatti {font-size: 17px;}
     .collapsible {width: 250px; height: 50px; font-size: 18px; margin-left: 2%;}
     .lisatiedot {font-size: 15px; margin-left: 2%;}
+    .varausosio {font-size: 16px;}
     .henkilonimi {font-size: 20px;}
     .grid-container {font-size: 10px; margin-top: 160px;}
     #myBtn {height: 70px; width: 70px; font-size: 30px;}
-    .stats img {
-        width: 80%;
-    }
+    .stats img {width: 85%;}
 }
 
 
