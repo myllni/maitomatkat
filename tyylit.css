@@ -489,6 +489,7 @@ and (max-device-width : 425px)
     .stats img {
         width: 100%;
     }
+    #logokuva {width: 200px;}
 }
 
 
