@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Maitomatkat</title>
+    <link rel="stylesheet" href="tyylit.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital@0;1&family=Montserrat&family=Work+Sans&display=swap');
+    </style>
+</head>
 
+<body>
+<!--Etusivun headerin video-->
+<!-- <div class="mobileHide">  piilottaa mobiililta jos poistaa kommentit -->
+<div class="video-container">
+    <video autoplay loop muted playsinline>
+    <source src="etusivu_video.mp4" alt="Avaruusalus lähestyy sinertävää planeetta avruudessa">
+    <p>Sorry, Your Browser Doesn't Support Embedded Videos.</p>
+    </video>
+    <div class="otsikko">Maitomatkat</div>
+    <div class="alaotsikko">Universumin luotetuin matkatoimisto</div>
+</div>
+
+<!--Takaisin sivun ylös nappi-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+  <script src="topButton.js"></script>
+<!-- </div> piilottaa mobiililta jos poistaa kommentit -->
+
+<section id="section1"></section> <!--Uuden sectionin alku tässä mahdollistaa etusivulle palattaessa hypyn suoraan videon alle-->
+
+<!--Navigaatio-->
+ <div class="navi">
+    <nav>
+        <a href="index.html"> <img src="logo.jpg" id="logokuva" alt="Logo jossa avaruusalus"></a>
+        <ul class="navlinks">
+            <li><a href="index.html"><button title="Etusivu painike">Etusivu</button></a></li>
+            <li><a href="kohteet.html"><button title="Matkakohde-sivun painike">Matkakohteet</button></a></li>
+            <li><a href="yhteys.html"><button title="Yhteystieto-sivun painike">Yhteystiedot</button></a></li>
+         </ul>
+    </nav>
+</div> 
+
+<!--Esittelyteksti-->
+<div class="esittely">
+    <h2>Kiinnostaisiko matka Marsiin? Tervetuloa kyytiin!</h2>
+    <br>
+    <p>Maitomatkat on vuonna 2034 perustettu avaruusjärjestö. Tarjoamme sujuvaa ja turvallista matkustusta ympäri kauniin aurinkokuntamme. Laajasta valikoimastamme loma- ja reittimatkoja löytyy varmasti juuri sinullekin sopiva vaihtoehto!</p>
+    <br>
+    <p>Järjestössämme toimii laaja joukko kokeneita alan ammattilaisia. Olemme yhdessä yhteistyökumppaniemme kanssa olleet edelläkävijöitä planeettainvälisen matkustamisen kehittämisessä. Viimeisten vuosikymmenten aikana avaruusmatkailun suosio on kasvanut räjähdysmäisesti ja tulevaisuus näyttää valoisalta. Lähitulevaisuudessa laajennamme horisonttejamme myös Jupiterin kuille! Iloitsemme jokaisesta asiakkaastamme ja toivotamme turvallisia kilometrejä tähtien lomassa!</p>
+</div>
+
+<!--Statistiikkakaavio-->
+<div class="stats">
+    <a class="stats"> <img src="Kaavio.jpg" id="stats" alt="Kaavio avaruusmatkailun kehityksestä ajan myötä"></a>
+</div>
+
+<!--Footer-->
+<footer>
+    <div class="grid-container">
+        <div class="grid-item">1<a href="#section1"> <img src="logo.jpg" id="logokuva" alt="Logo jossa avaruusalus"></a></div>
+        <div class="grid-item">
+            2<p>Ab Maitomatkat Oy <br>
+            Puhelin: +358 55 550 0550 <br>
+            Sähköposti: asiakaspalvelu@maitomatkat.org <br>
+            Pääkonttori: Ratapihantie 13, 00520 Helsinki
+            </p></div>
+        <div class="grid-item">3<p><a href="yhteys.html#section2">FAQ</a></p></div>
+        <div class="grid-item">4<p>Instagram/Facebook/TikTok @maitomatkat</p></div>
+    </div>
+</footer>
+
+</body>
+</html>
