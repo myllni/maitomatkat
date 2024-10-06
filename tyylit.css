@@ -461,7 +461,7 @@ and (max-device-width : 420px){  .mobileHide { display: none;}} */
 
 /*Laitekohtaiset asetukset*/
 @media only screen /* mobiili asetuksia */
-and (max-width : 425px)
+and (max-device-width : 425px)
 {
     body {font-size: 17px;}
     h2 {font-size: 27px;}
@@ -485,7 +485,7 @@ and (max-width : 425px)
 
 
 @media only screen /* tabletti asetuksia */
-and (min-width : 426px)
+and (min-device-width : 426px)
 and (max-width: 1024px) 
 {
     body {font-size: 18px;}
@@ -504,7 +504,7 @@ and (max-width: 1024px)
 
 
 @media only screen /* desktop asetuksia */
-and (min-width:1025px)
+and (min-device-width:1025px)
 {
     body {font-size: 19px;}
     h2 {font-size: 29px;}
